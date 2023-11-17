@@ -1,0 +1,100 @@
+.header{
+  color: rgb(13, 84, 131);
+  text-align: center;
+  background-color: rgb(240, 235, 235);
+  border-style: groove;
+  width: 1000px;
+  border: 15px black;
+  padding: 25px;
+  margin: auto;
+  font-size:x-large;
+}
+.header p{
+  text-align: center;
+}
+
+.President{
+  color:rgb(0, 4, 255);
+  text-align: center;
+   
+}
+
+.President ul{
+  color:rgb(5, 5, 5);
+  border-radius: 50px 50px 35px 50px;
+  background-color:rgb(85, 102, 107, 78%);
+  text-align: center;
+  border-style: inset;
+  padding: 20px;
+  width: 800px;
+  margin: auto; 
+}
+.V-President{
+    color:rgb(13, 13, 14);
+    text-align: center;
+  }
+  .V-President ul{
+    color:rgb(175, 226, 242);
+    border-radius: 0px 0px 0px 0px;
+    background-color:rgb(85, 102, 107, 78%);
+    text-align: center;
+    border-style: inset;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+
+  }
+  .Treasurer{
+    color:rgb(0, 4, 255);
+    text-align: center;
+  }
+  .Treasurer ul{
+    color:rgb(0, 0, 0);
+    border-radius: 50px 50px 35px 50px;
+    background-color:rgb(85, 102, 107, 78%);
+    text-align: center;
+    border-style: inset;
+    padding: 20px;
+    width: 800px;
+    margin: auto; 
+  }    
+  .Secretary{
+    color:rgb(7, 7, 7);
+    text-align: center;
+  }
+  .Secretary ul{
+    color:rgb(175, 226, 242);
+    border-radius: 0px 0px 0px 0px;
+    background-color:rgb(85, 102, 107, 78%);
+    text-align: center;
+    border-style: inset;
+    padding: 20px;
+    width: 800px;
+    margin: auto; 
+  }
+  .Project-Manager{
+    color:rgb(0, 4, 255);
+    text-align: center;
+  }
+  .Project-Manager ul{
+    color:rgb(0, 0, 0);
+    border-radius: 50px 50px 35px 50px;
+    text-align: center;
+    background-color: rgb(85, 102, 107, 78%);
+    border-style: inset;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+  }
+body
+{background-color: #000000;
+  opacity: 0.8;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f6f6f6 40px ), repeating-linear-gradient( #56ebff55, #56ebff );
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+ul {
+  list-style-type: none;
+}
+
+
