@@ -1,10 +1,10 @@
 .header{
   color: rgba(2, 169, 247, 0.829);
   text-align: center;
+  border-radius: 50px 50px 50px 50px;
   background-color: rgb(240, 235, 235);
-  border-style: groove;
+  border-style:double;
   width: 1000px;
-  border: 15px black;
   padding: 25px;
   margin: auto;
   font-size:x-large;
@@ -23,10 +23,10 @@
 
 .President ul{
   color:rgb(5, 5, 5);
-  border-radius: 50px 50px 35px 50px;
+  border-radius: 50px 50px 50px 50px;
   background-color:rgba(255, 255, 255, 0.78);
   text-align: center;
-  border-style: inset;
+  border-style: double;
   padding: 20px;
   width: 800px;
   margin: auto;
@@ -40,10 +40,10 @@
   }
   .V-President ul{
     color:rgba(2, 169, 247, 0.829);
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 50px 50px 50px 50px;
     background-color:rgb(255, 255, 255);
     text-align: center;
-    border-style: inset;
+    border-style: double;
     padding: 20px;
     width: 800px;
     margin: auto;
@@ -58,10 +58,10 @@
   }
   .Treasurer ul{
     color:rgb(0, 0, 0);
-    border-radius: 50px 50px 35px 50px;
+    border-radius: 50px 50px 50px 50px;
     background-color:rgba(255, 255, 255, 0.78);
     text-align: center;
-    border-style: inset;
+    border-style: double;
     padding: 20px;
     width: 800px;
     margin: auto;
@@ -73,11 +73,11 @@
     font-size: x-large;
   }
   .Secretary ul{
-    color:rgb(2, 169, 247, 0.829);
-    border-radius: 0px 0px 0px 0px;
+    color:rgba(2, 169, 247, 0.829);
+    border-radius: 50px 50px 50px 50px;
     background-color:rgba(255, 255, 255, 0.78);
     text-align: center;
-    border-style: inset;
+    border-style: double;
     padding: 20px;
     width: 800px;
     margin: auto;
@@ -91,10 +91,10 @@
   }
   .Project-Manager ul{
     color:rgb(0, 0, 0);
-    border-radius: 50px 50px 35px 50px;
+    border-radius: 50px 50px 50px 50px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.78);
-    border-style: inset;
+    border-style: double;
     padding: 20px;
     width: 800px;
     margin: auto;
@@ -109,6 +109,7 @@ body
 }
 ul {
   list-style-type: none;
+}
 }
 
 
