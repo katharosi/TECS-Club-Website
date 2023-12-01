@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>T.E.C.S CLUB WEBSITE 2.0</title>
+        <link rel="stylesheet" href="style2.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/b99e675b63.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <!----nav bar------>
+
+
+    <!---------------->
+    <header>
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <i class='bx bxs-component'></i>
+                    <div class="logo_name">T.E.C.S CLUB</div>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="nav_list">
+                <li>
+                    <i class='bx bx-search' ></i>
+                    <input type="text" placeholder="Search...">
+                    <a href="">Search</a>
+                    <span class="tooltip">Search</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user'></i>
+                        <a href="">Sign Up</a>
+                        <span class="links_name">Sign Up</span>
+                    </a>
+                    <span class="tooltip">Sign Up</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-book-bookmark' ></i>
+                        <a href="">Resources</a>
+                        <span class="links_name">Resources</span>
+                    </a>
+                    <span class="tooltip">Resources</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-slideshow' ></i>
+                        <a href="">Showcase</a>
+                        <span class="links_name">Showcase</span>
+                    </a>
+                    <span class="tooltip">Showcase</span>
+                </li>
+                <li>
+                    <a href="members_page">Suggestion</a>
+                      
+                </li>
+                <li>
+                    <a href="advisors.html"</a>
+                        <i class='bx bx-group'>
+                        <span class="links_name">Advisors</span>
+                   
+                    span class="tooltip">Advisors</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-info-circle' ></i>
+                        <span class="links_name">About</span>
+                    </a>
+                    <span class="tooltip">About</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-help-circle' ></i>
+                        <a href="">Help</a>
+                        <span class="links_name">Help</span>
+                    </a>
+                    <span class="tooltip">Help</span>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main_content">
+        <div class="header">Welcome to T.E.C.S Club</div>
+        <div class="slogan"></div>
+        <div>Whatever allu come up with</div>
+    </div>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+
+    </script>
+</body>
+</html>
